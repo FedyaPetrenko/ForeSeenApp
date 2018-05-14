@@ -1,19 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
+
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <UserSecretsId>aspnet-ForeSeen.Web-12D9E24C-7E9C-40B4-80F2-0A2C19CE2F20</UserSecretsId>
+    <UserSecretsId>aspnet-ForeSeen.WebApp-22E3255E-3FFD-463A-AB33-EC40AAE659A7</UserSecretsId>
   </PropertyGroup>
+
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.2" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
   </ItemGroup>
+
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.2" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.1" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\ForeSeen.BusinessLayer\ForeSeen.BusinessLayer.csproj" />
+    <ProjectReference Include="..\ForeSeen.DataLayer\ForeSeen.DataLayer.csproj" />
   </ItemGroup>
+
 </Project>

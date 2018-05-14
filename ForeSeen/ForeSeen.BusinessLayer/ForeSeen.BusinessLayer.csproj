@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ForeSeen.DataLayer\ForeSeen.DataLayer.csproj" />
+    <ProjectReference Include="..\ForeSeen.FileStorage\ForeSeen.FileStorage.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForeSeen.Web", "ForeSeen.Web\ForeSeen.Web.csproj", "{93C245AC-DF57-4A2A-92BB-38FA320BFF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForeSeen.BusinessLayer", "ForeSeen.BusinessLayer\ForeSeen.BusinessLayer.csproj", "{F6F0B39C-723B-4229-BBDF-59BB774F6E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeSeen.BusinessLayer", "ForeSeen.BusinessLayer\ForeSeen.BusinessLayer.csproj", "{F6F0B39C-723B-4229-BBDF-59BB774F6E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForeSeen.DataLayer", "ForeSeen.DataLayer\ForeSeen.DataLayer.csproj", "{B2E4A65D-BC3E-43FD-BB29-A27FDD33232C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeSeen.DataLayer", "ForeSeen.DataLayer\ForeSeen.DataLayer.csproj", "{B2E4A65D-BC3E-43FD-BB29-A27FDD33232C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeSeen.FileStorage", "ForeSeen.FileStorage\ForeSeen.FileStorage.csproj", "{38ACC02C-9108-4A46-BDE1-C8F9F5571D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForeSeen.FileStorage", "ForeSeen.FileStorage\ForeSeen.FileStorage.csproj", "{38ACC02C-9108-4A46-BDE1-C8F9F5571D38}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ForeSeen.DatabaseSchema", "ForeSeen.DatabaseSchema\ForeSeen.DatabaseSchema.sqlproj", "{43453AD8-543C-49BF-83D4-84BA78BF1FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeSeen.WebApp", "ForeSeen.WebApp\ForeSeen.WebApp.csproj", "{00E5B464-7A8F-4755-9B05-D76A9F9D6948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93C245AC-DF57-4A2A-92BB-38FA320BFF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93C245AC-DF57-4A2A-92BB-38FA320BFF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93C245AC-DF57-4A2A-92BB-38FA320BFF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93C245AC-DF57-4A2A-92BB-38FA320BFF11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6F0B39C-723B-4229-BBDF-59BB774F6E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6F0B39C-723B-4229-BBDF-59BB774F6E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F0B39C-723B-4229-BBDF-59BB774F6E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{43453AD8-543C-49BF-83D4-84BA78BF1FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43453AD8-543C-49BF-83D4-84BA78BF1FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43453AD8-543C-49BF-83D4-84BA78BF1FA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00E5B464-7A8F-4755-9B05-D76A9F9D6948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E5B464-7A8F-4755-9B05-D76A9F9D6948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E5B464-7A8F-4755-9B05-D76A9F9D6948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E5B464-7A8F-4755-9B05-D76A9F9D6948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
